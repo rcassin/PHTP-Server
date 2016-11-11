@@ -1,11 +1,24 @@
 {
   "name": "phptp-server",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
+
+  "author": {
+    "name": "Louis Desplanche",
+    "email": "l.desplanche@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/rcassin/PHTP-Server/issues"
+  },
+
   "dependencies": {
     "express": "~4.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcassin/PHTP-Server.git"
   }
+
 }
